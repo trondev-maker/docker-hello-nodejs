@@ -46,3 +46,15 @@ Let's see the present working directory.
 
 
 docker build -t dockerid/nodejs:0.3.3.RELEASE .
+
+docker container run -d -p 5000:5000 dockerid/nodejs:0.3.3.RELEASE
+
+docker logs -f containerid
+it will show ready on port 5000!
+
+
+
+can access localhost:5000
+{
+message: "Hello world Javascript v1"
+}
