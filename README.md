@@ -53,6 +53,7 @@ docker logs -f containerid
 it will show ready on port 5000!
 
 
+docker push  dockerid/nodejs:0.3.3.RELEASE                this will be ushed to dockerhub
 
 can access localhost:5000
 {
